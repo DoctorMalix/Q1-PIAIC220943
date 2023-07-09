@@ -150,6 +150,7 @@ console.log("\nDear", guests[0], "you are cordially invited to dinner today at 7
 console.log("\nDear", guests[1], "you are cordially invited to dinner today at 7 PM")
 console.log("\nDear", guests[2], "you are cordially invited to dinner today at 7 PM")
 
+// Question-16
 
 
 
