@@ -105,4 +105,11 @@ console.log("\nFriend 2 = ", names[1]);
 console.log("\nFriend 3 = ", names[2]);  
 console.log("\nFriend 4 = ", names[3]); 
 
+// Question-12
+
+console.log("\n");
+console.log("My Dear Friend,", names[0], ",Welcome to PIAIC Course"); 
+console.log("My Dear Friend,", names[1], ",Welcome to PIAIC Course"); 
+console.log("My Dear Friend,", names[2], ",Welcome to PIAIC Course"); 
+console.log("My Dear Friend,", names[3], ",Welcome to PIAIC Course");
 
