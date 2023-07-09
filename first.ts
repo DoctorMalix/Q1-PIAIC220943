@@ -98,20 +98,20 @@ generate the value "8" in result and at the end printed an other line
 
 // Question-11
 
-let names: string[] = ["Farhad", "Daim", "Maaz", "Saif"];
+let names: string[] = ["Farhad", "Daim", "Maaz", "Saif"]
 console.log("\nFollowing is the list of my BEST Friends")
-console.log("\nFriend 1 = ", names[0]); 
-console.log("\nFriend 2 = ", names[1]); 
-console.log("\nFriend 3 = ", names[2]);  
-console.log("\nFriend 4 = ", names[3]); 
+console.log("\nFriend 1 = ", names[0])
+console.log("\nFriend 2 = ", names[1])
+console.log("\nFriend 3 = ", names[2])
+console.log("\nFriend 4 = ", names[3])
 
 // Question-12
 
 console.log("\n\n\n\n");
-console.log("My Dear Friend,", names[0], ",Welcome to PIAIC Course"); 
-console.log("My Dear Friend,", names[1], ",Welcome to PIAIC Course"); 
-console.log("My Dear Friend,", names[2], ",Welcome to PIAIC Course"); 
-console.log("My Dear Friend,", names[3], ",Welcome to PIAIC Course");
+console.log("My Dear Friend,", names[0], ",Welcome to PIAIC Course")
+console.log("My Dear Friend,", names[1], ",Welcome to PIAIC Course")
+console.log("My Dear Friend,", names[2], ",Welcome to PIAIC Course")
+console.log("My Dear Friend,", names[3], ",Welcome to PIAIC Course")
 
 // Question-13
 console.log("\n\n\n\n");
@@ -120,6 +120,17 @@ console.log("I would like to own a", transsport[0])
 console.log("I would like to own a", transsport[1])
 console.log("I would like to own a", transsport[2])
 console.log("I would like to own a", transsport[3])
+
+
+
+// Question-13
+let guests: string[] = ["Farhad", "Daim", "Maaz"]
+console.log("\n\n\n\n");
+console.log("\nDear", guests[0], "you are cordially invited to dinner today at 7 PM")
+console.log("\nDear", guests[1], "you are cordially invited to dinner today at 7 PM")
+console.log("\nDear", guests[2], "you are cordially invited to dinner today at 7 PM")
+
+
 
 
 
