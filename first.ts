@@ -133,7 +133,8 @@ console.log("\nDear", guests[2], "you are cordially invited to dinner today at 7
 
 
 // Question-15
-
+{ // Yeh block is leay lagaya hay k same name k variable aik he block main dobara use ni ker sakty
+  // Iss leay yeh alug block banan dia
 let guests: string[] = ["Farhad", "Daim", "Maaz"]
 console.log("\n\n\n\n");
 console.log("\nDear", guests[0], "you are cordially invited to dinner today at 7 PM")
@@ -149,8 +150,38 @@ console.log("\nChanged list of Guests")
 console.log("\nDear", guests[0], "you are cordially invited to dinner today at 7 PM")
 console.log("\nDear", guests[1], "you are cordially invited to dinner today at 7 PM")
 console.log("\nDear", guests[2], "you are cordially invited to dinner today at 7 PM")
-
+}
 // Question-16
+console.log("\n\n\n\n");
+console.log("\nChanged list of Guests")
+console.log("\nDear", guests[0], "you are cordially invited to dinner today at 7 PM")
+console.log("\nDear", guests[1], "you are cordially invited to dinner today at 7 PM")
+console.log("\nDear", guests[2], "you are cordially invited to dinner today at 7 PM")
 
+console.log("\nWe are pleased to informed that we got a bigger table and inviting more guests")
 
+{
+  let guestNames: string[] =  ["Farhad", "Daim", "Maaz"]
+  
+  // Adding a guest name at the beginning of the array
+  guestNames.unshift("Khalid")
+  // Adding a guest name in the middle of the array
+  const middleIndex = Math.floor(guestNames.length / 2)
+  guestNames.splice(middleIndex, 0, "Usman")
+  // Adding two guest names at the end of the array
+  // [[[[[[ APPEND FUNTION CAN NOT BE USED WITH STRING[] SO I USED PUSH() ]]]]]]
+  guestNames.push("Waheed", "Salman")
+  
+// Re-Print the message with new guests
+  console.log("\n\n");
+  console.log("\nChanged list of Guests")
+  console.log("\nDear", guestNames[0], "you are cordially invited to dinner today at 7 PM")
+  console.log("\nDear", guestNames[1], "you are cordially invited to dinner today at 7 PM")
+  console.log("\nDear", guestNames[2], "you are cordially invited to dinner today at 7 PM")
+  console.log("\nDear", guestNames[3], "you are cordially invited to dinner today at 7 PM")
+  console.log("\nDear", guestNames[4], "you are cordially invited to dinner today at 7 PM")
+  console.log("\nDear", guestNames[5], "you are cordially invited to dinner today at 7 PM")
+  console.log("\nDear", guestNames[6], "you are cordially invited to dinner today at 7 PM")
+
+}
 

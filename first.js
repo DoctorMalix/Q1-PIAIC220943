@@ -99,9 +99,48 @@ console.log("\nDear", guests[0], "you are cordially invited to dinner today at 7
 console.log("\nDear", guests[1], "you are cordially invited to dinner today at 7 PM");
 console.log("\nDear", guests[2], "you are cordially invited to dinner today at 7 PM");
 // Question-15
-guests[1] = "Abdul Rehman";
+{ // Yeh block is leay lagaya hay k same name k variable aik he block main dobara use ni ker sakty
+    // Iss leay yeh alug block banan dia
+    var guests_1 = ["Farhad", "Daim", "Maaz"];
+    console.log("\n\n\n\n");
+    console.log("\nDear", guests_1[0], "you are cordially invited to dinner today at 7 PM");
+    console.log("\nDear", guests_1[1], "you are cordially invited to dinner today at 7 PM");
+    console.log("\nDear", guests_1[2], "you are cordially invited to dinner today at 7 PM");
+    console.log("\nDue to some reason", guests_1[1], "is unable to attend the dinner today");
+    console.log("\nSo we are Updating the guests list.");
+    // Printing the guests after Changing the guest
+    guests_1[1] = "Abdul Rehman";
+    console.log("\n\n\n\n");
+    console.log("\nChanged list of Guests");
+    console.log("\nDear", guests_1[0], "you are cordially invited to dinner today at 7 PM");
+    console.log("\nDear", guests_1[1], "you are cordially invited to dinner today at 7 PM");
+    console.log("\nDear", guests_1[2], "you are cordially invited to dinner today at 7 PM");
+}
+// Question-16
 console.log("\n\n\n\n");
 console.log("\nChanged list of Guests");
 console.log("\nDear", guests[0], "you are cordially invited to dinner today at 7 PM");
 console.log("\nDear", guests[1], "you are cordially invited to dinner today at 7 PM");
 console.log("\nDear", guests[2], "you are cordially invited to dinner today at 7 PM");
+console.log("\nWe are pleased to informed that we got a bigger table and inviting more guests");
+{
+    var guestNames = ["Farhad", "Daim", "Maaz"];
+    // Adding a guest name at the beginning of the array
+    guestNames.unshift("Khalid");
+    // Adding a guest name in the middle of the array
+    var middleIndex = Math.floor(guestNames.length / 2);
+    guestNames.splice(middleIndex, 0, "Usman");
+    // Adding two guest names at the end of the array
+    // [[[[[[ APPEND FUNTION CAN NOT BE USED WITH STRING[] SO I USED PUSH() ]]]]]]
+    guestNames.push("Waheed", "Salman");
+    // Re-Print the message with new guests
+    console.log("\n\n");
+    console.log("\nChanged list of Guests");
+    console.log("\nDear", guestNames[0], "you are cordially invited to dinner today at 7 PM");
+    console.log("\nDear", guestNames[1], "you are cordially invited to dinner today at 7 PM");
+    console.log("\nDear", guestNames[2], "you are cordially invited to dinner today at 7 PM");
+    console.log("\nDear", guestNames[3], "you are cordially invited to dinner today at 7 PM");
+    console.log("\nDear", guestNames[4], "you are cordially invited to dinner today at 7 PM");
+    console.log("\nDear", guestNames[5], "you are cordially invited to dinner today at 7 PM");
+    console.log("\nDear", guestNames[6], "you are cordially invited to dinner today at 7 PM");
+}
