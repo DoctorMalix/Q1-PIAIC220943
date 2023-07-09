@@ -92,9 +92,16 @@ console.log("I would like to own a", transsport[0]);
 console.log("I would like to own a", transsport[1]);
 console.log("I would like to own a", transsport[2]);
 console.log("I would like to own a", transsport[3]);
-// Question-13
+// Question-14
 var guests = ["Farhad", "Daim", "Maaz"];
 console.log("\n\n\n\n");
+console.log("\nDear", guests[0], "you are cordially invited to dinner today at 7 PM");
+console.log("\nDear", guests[1], "you are cordially invited to dinner today at 7 PM");
+console.log("\nDear", guests[2], "you are cordially invited to dinner today at 7 PM");
+// Question-15
+guests[1] = "Abdul Rehman";
+console.log("\n\n\n\n");
+console.log("\nChanged list of Guests");
 console.log("\nDear", guests[0], "you are cordially invited to dinner today at 7 PM");
 console.log("\nDear", guests[1], "you are cordially invited to dinner today at 7 PM");
 console.log("\nDear", guests[2], "you are cordially invited to dinner today at 7 PM");
