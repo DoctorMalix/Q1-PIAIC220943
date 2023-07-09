@@ -133,13 +133,22 @@ console.log("\nDear", guests[2], "you are cordially invited to dinner today at 7
 
 
 // Question-15
+
+let guests: string[] = ["Farhad", "Daim", "Maaz"]
+console.log("\n\n\n\n");
+console.log("\nDear", guests[0], "you are cordially invited to dinner today at 7 PM")
+console.log("\nDear", guests[1], "you are cordially invited to dinner today at 7 PM")
+console.log("\nDear", guests[2], "you are cordially invited to dinner today at 7 PM")
+console.log("\nDue to some reason", guests[1], "is unable to attend the dinner today")
+console.log("\nSo we are Updating the guests list.")
+
+// Printing the guests after Changing the guest
 guests[1] = "Abdul Rehman"
 console.log("\n\n\n\n");
 console.log("\nChanged list of Guests")
 console.log("\nDear", guests[0], "you are cordially invited to dinner today at 7 PM")
 console.log("\nDear", guests[1], "you are cordially invited to dinner today at 7 PM")
 console.log("\nDear", guests[2], "you are cordially invited to dinner today at 7 PM")
-
 
 
 
