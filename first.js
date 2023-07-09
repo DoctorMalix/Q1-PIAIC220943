@@ -40,3 +40,10 @@ console.log("Division = ", 16 / 2);
 console.log("Multiplication = ", 4 * 2);
 console.log("Addition = ", 4 + 4);
 console.log("Subtraction = ", 10 - 2);
+// <<<< Question-8 >>>>
+console.log("-----------------------------------------------------------------");
+console.log(16 / 2);
+console.log(4 * 2);
+console.log(4 + 4);
+console.log(10 - 2);
+console.log("-----------------------------------------------------------------");
