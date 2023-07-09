@@ -73,3 +73,25 @@ let fav_num = 923219992660
 let fav_num_msg = "The following Number \"which is my phone number\" is my Favourit Number : "
 console.log (fav_num_msg, fav_num)
 
+// <<<< Question-10 >>>>
+/*
+let fav_num = 923219992660
+let fav_num_msg = "The following Number \"which is my phone number\" is my Favourit Number : "
+console.log (fav_num_msg, fav_num)
+
+On first line of this program we declared a variable name fav_num and assigned a value
+on the second line we declared a message variable fav_num_msg and stored required value
+and on the third line we printed our message with the number on screen
+
+====================================================================================
+console.log("-----------------------------------------------------------------")
+console.log(16/2)
+console.log( 4*2)
+console.log( 4+4)
+console.log(10-2)
+console.log("-----------------------------------------------------------------")
+
+In this program  we print a line on the consol and did some basic calculation that 
+generate the value "8" in result and at the end printed an other line
+*/
+
