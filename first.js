@@ -24,5 +24,8 @@ console.log('Name in lower case =  ', nameinlower);
 var nameinTitleCase = toTitleCase(name);
 console.log('Name in Title Case =  ', nameinTitleCase);
 // <<<< Question-4 >>>>
-// Whoever goes out in search of knowledge is on the Path of God until returning.”
 console.log("Muhammad (PBUH) Said, \"Whoever goes out in search of knowledge is on the Path of ALLAH, until returning.\"");
+// <<<< Question-5 >>>>
+var famous_person = "Muhammad (PBUH)";
+var message = "\"Whoever goes out in search of knowledge is on the Path of ALLAH, until returning.\"";
+console.log(famous_person, "Said,", message);
