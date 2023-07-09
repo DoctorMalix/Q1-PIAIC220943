@@ -47,3 +47,7 @@ console.log(4 * 2);
 console.log(4 + 4);
 console.log(10 - 2);
 console.log("-----------------------------------------------------------------");
+// <<<< Question-9 >>>>
+var fav_num = 923219992660;
+var fav_num_msg = "The following Number \"which is my phone number\" is my Favourit Number : ";
+console.log(fav_num_msg, fav_num);

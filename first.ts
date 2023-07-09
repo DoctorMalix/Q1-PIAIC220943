@@ -68,3 +68,8 @@ console.log("-----------------------------------------------------------------")
 
 
 
+// <<<< Question-9 >>>>
+let fav_num = 923219992660
+let fav_num_msg = "The following Number \"which is my phone number\" is my Favourit Number : "
+console.log (fav_num_msg, fav_num)
+
