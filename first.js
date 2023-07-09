@@ -29,3 +29,10 @@ console.log("Muhammad (PBUH) Said, \"Whoever goes out in search of knowledge is 
 var famous_person = "Muhammad (PBUH)";
 var message = "\"Whoever goes out in search of knowledge is on the Path of ALLAH, until returning.\"";
 console.log(famous_person, "Said,", message);
+// <<<< Question-6 >>>>
+var Strip_famous_person = "\tMuhammad (PBUH)\n";
+var Strip_message = "\"Whoever goes out in search of knowledge is on the Path of ALLAH, until returning.\"";
+console.log(" <<< Name and Message WITHOUT Stripping");
+console.log(Strip_famous_person, "Said,", Strip_message);
+console.log(" <<< Name and Message WITH Stripping");
+console.log(Strip_famous_person.trim(), "Said,", Strip_message);
