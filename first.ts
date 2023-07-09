@@ -107,9 +107,21 @@ console.log("\nFriend 4 = ", names[3]);
 
 // Question-12
 
-console.log("\n");
+console.log("\n\n\n\n");
 console.log("My Dear Friend,", names[0], ",Welcome to PIAIC Course"); 
 console.log("My Dear Friend,", names[1], ",Welcome to PIAIC Course"); 
 console.log("My Dear Friend,", names[2], ",Welcome to PIAIC Course"); 
 console.log("My Dear Friend,", names[3], ",Welcome to PIAIC Course");
+
+// Question-13
+console.log("\n\n\n\n");
+let transsport: string[] = ["TESLA Model Y", "Lexus Lineup", "Audi e-tron GT", "Mercedes Benz"];
+console.log("I would like to own a", transsport[0]) 
+console.log("I would like to own a", transsport[1])
+console.log("I would like to own a", transsport[2])
+console.log("I would like to own a", transsport[3])
+
+
+
+
 
