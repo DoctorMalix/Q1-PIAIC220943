@@ -95,3 +95,14 @@ In this program  we print a line on the consol and did some basic calculation th
 generate the value "8" in result and at the end printed an other line
 */
 
+
+// Question-11
+
+let names: string[] = ["Farhad", "Daim", "Maaz", "Saif"];
+console.log("\nFollowing is the list of my BEST Friends")
+console.log("\nFriend 1 = ", names[0]); 
+console.log("\nFriend 2 = ", names[1]); 
+console.log("\nFriend 3 = ", names[2]);  
+console.log("\nFriend 4 = ", names[3]); 
+
+
