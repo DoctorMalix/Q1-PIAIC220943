@@ -163,3 +163,29 @@ console.log("\nWe are pleased to informed that we got a bigger table and invitin
     console.log("\nEMPTY List of Guests");
     console.log("\nThis is the final list of Guests", guestNames);
 }
+// [[[[[[   QUESTION-18    ]]]]]]
+{
+    var names_1 = ["Farhad", "Daim", "Maaz", "Bilal", "Zarnab"];
+    var sortednames = names_1.slice();
+    var descendnames = names_1.slice();
+    console.log("\n\n\n [[[[[[   QUESTION-18    ]]]]]]\n");
+    // ARRAY IN ORGINAL ORDER
+    console.log("\nARRAY IN ORGINAL ORDER");
+    console.log(names_1);
+    console.log("\nARRAY IN SORTED ORDER");
+    console.log(sortednames.sort());
+    console.log("\nARRAY STILL IN ORGINAL ORDER");
+    console.log(names_1);
+    console.log("\nARRAY IN [[REVERSE]] ORDER");
+    console.log(descendnames.reverse());
+    console.log("\nARRAY STILL IN ORGINAL ORDER");
+    console.log(names_1);
+    console.log("\nARRAY IN REVERSE ORDER");
+    console.log(names_1.reverse());
+    console.log("\nARRAY IN REVERSE AGAIN ORDER");
+    console.log(names_1.reverse());
+    console.log("\nARRAY IN SORTED ORDER");
+    console.log(names_1.sort());
+    console.log("\nARRAY IN REVERSE ORDER");
+    console.log(names_1.reverse());
+}

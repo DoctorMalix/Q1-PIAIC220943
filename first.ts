@@ -203,5 +203,44 @@ console.log("\nDear", guestNames[1], "Your are Still Invited Please")
 guestNames.splice(0,2)
 console.log("\nEMPTY List of Guests")
 console.log("\nThis is the final list of Guests", guestNames)
+}
+
+
+// [[[[[[   QUESTION-18    ]]]]]]
+{
+
+  let names: string[] = ["Farhad", "Daim", "Maaz","Bilal","Zarnab"]
+  let sortednames: string[]= names.slice()
+  let descendnames: string[] = names.slice()
+  console.log("\n\n\n [[[[[[   QUESTION-18    ]]]]]]\n")
+
+// ARRAY IN ORGINAL ORDER
+  console.log("\nARRAY IN ORGINAL ORDER")
+  console.log(names)
+  console.log("\nARRAY IN SORTED ORDER")
+  console.log(sortednames.sort())
+  console.log("\nARRAY STILL IN ORGINAL ORDER")
+  console.log(names)
+  console.log("\nARRAY IN [[REVERSE]] ORDER")
+  console.log(descendnames.reverse())
+  console.log("\nARRAY STILL IN ORGINAL ORDER")
+  console.log(names)
+  console.log("\nARRAY IN REVERSE ORDER")
+  console.log(names.reverse())
+  console.log("\nARRAY IN REVERSE AGAIN ORDER")
+  console.log(names.reverse())
+
+  console.log("\nARRAY IN SORTED ORDER")
+  console.log(names.sort())
+  console.log("\nARRAY IN REVERSE ORDER")
+  console.log(names.reverse())
+
+
+ // [[[[[[   QUESTION-19    ]]]]]] 
+
+
+
+
 
 }
+
