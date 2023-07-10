@@ -284,3 +284,33 @@ console.log("Guest3:", guest3)
      console.log(guestNames[3])
 }
 
+{
+      // [[[[[[   QUESTION-23    ]]]]]] 
+      console.log("\n\n\n[[[[[[   QUESTION-23    ]]]]]]\n") 
+  let guestNames: string[] = ["Ali", "Sara", "Ahmed"]
+
+  console.log("Is guestNames[0] === 'Ali'?")
+  console.log(guestNames[0] === 'Ali')
+  
+  console.log("Is guestNames[1] === 'Zainab'?")
+  console.log(guestNames[1] === 'Zainab')
+  
+  console.log("Is guestNames[2] !== 'Ahmed'?")
+  console.log(guestNames[2] !== 'Ahmed')
+ {
+  //=====================================================================
+ let guestNames: string[] = ["Ali", "Sara", "Ahmed", "Zainab", "Hassan", "Ayesha", "Fatima", "Usman", "Mahnoor", "Kamran"]
+console.log("\n Calculation of TRUE and FALSE\n")
+console.log(guestNames[0] !== 'Ali')
+console.log(guestNames[1] === 'Zahra')
+console.log(guestNames[2] === 'Ahmed')
+console.log(guestNames[3] === 'Zainab')
+console.log(guestNames[4] === 'Hassan')
+console.log(guestNames[5] !== 'Iqra')
+console.log(guestNames[6] === 'Saira')
+console.log(guestNames[7] == 'Kashif')
+console.log(guestNames[8] !== 'Amna')
+console.log(guestNames[9] !== 'Kamran')
+
+ }
+}

@@ -223,3 +223,29 @@ console.log("\nWe are pleased to informed that we got a bigger table and invitin
     guestNames.push("Zainab");
     console.log(guestNames[3]);
 }
+{
+    // [[[[[[   QUESTION-23    ]]]]]] 
+    console.log("\n\n\n[[[[[[   QUESTION-23    ]]]]]]\n");
+    var guestNames = ["Ali", "Sara", "Ahmed"];
+    console.log("Is guestNames[0] === 'Ali'?");
+    console.log(guestNames[0] === 'Ali');
+    console.log("Is guestNames[1] === 'Zainab'?");
+    console.log(guestNames[1] === 'Zainab');
+    console.log("Is guestNames[2] !== 'Ahmed'?");
+    console.log(guestNames[2] !== 'Ahmed');
+    {
+        //=====================================================================
+        var guestNames_1 = ["Ali", "Sara", "Ahmed", "Zainab", "Hassan", "Ayesha", "Fatima", "Usman", "Mahnoor", "Kamran"];
+        console.log("\n Calculation of TRUE and FALSE\n");
+        console.log(guestNames_1[0] !== 'Ali');
+        console.log(guestNames_1[1] === 'Zahra');
+        console.log(guestNames_1[2] === 'Ahmed');
+        console.log(guestNames_1[3] === 'Zainab');
+        console.log(guestNames_1[4] === 'Hassan');
+        console.log(guestNames_1[5] !== 'Iqra');
+        console.log(guestNames_1[6] === 'Saira');
+        console.log(guestNames_1[7] == 'Kashif');
+        console.log(guestNames_1[8] !== 'Amna');
+        console.log(guestNames_1[9] !== 'Kamran');
+    }
+}
