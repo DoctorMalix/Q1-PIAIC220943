@@ -1,3 +1,4 @@
+// <<<<< QUESTION-24 >>>>>>>
 //Tests for equality and inequality with strings
 var str1 = "Malik";
 var str2 = "malik";
