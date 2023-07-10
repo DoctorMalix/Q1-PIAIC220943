@@ -272,3 +272,15 @@ console.log("Guest1:", guest1)
 console.log("Guest2:", guest2)
 console.log("Guest3:", guest3)
 }
+
+{
+
+     // [[[[[[   QUESTION-22    ]]]]]] 
+     console.log("\n\n\n[[[[[[   QUESTION-22    ]]]]]]\n")
+     let guestNames: string[] = ["Farhad Ali", "Daim Farooq", "Ahmed Bilal"]
+     console.log("\nGives Error UNDEFINED here\n")
+     console.log(guestNames[3])    
+     guestNames.push("Zainab")     
+     console.log(guestNames[3])
+}
+

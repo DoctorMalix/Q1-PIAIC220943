@@ -214,3 +214,12 @@ console.log("\nWe are pleased to informed that we got a bigger table and invitin
     console.log("Guest2:", guest2);
     console.log("Guest3:", guest3);
 }
+{
+    // [[[[[[   QUESTION-22    ]]]]]] 
+    console.log("\n\n\n[[[[[[   QUESTION-22    ]]]]]]\n");
+    var guestNames = ["Farhad Ali", "Daim Farooq", "Ahmed Bilal"];
+    console.log("\nGives Error UNDEFINED here\n");
+    console.log(guestNames[3]);
+    guestNames.push("Zainab");
+    console.log(guestNames[3]);
+}
