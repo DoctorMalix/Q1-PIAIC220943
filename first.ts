@@ -234,13 +234,14 @@ console.log("\nThis is the final list of Guests", guestNames)
   console.log(names.sort())
   console.log("\nARRAY IN REVERSE ORDER")
   console.log(names.reverse())
+}
 
+{    // [[[[[[   QUESTION-19    ]]]]]] 
+  let names: string[] = ["Farhad", "Daim", "Maaz","Bilal","Zarnab"]
 
- // [[[[[[   QUESTION-19    ]]]]]] 
-
-
-
-
-
+  
+  console.log("\n\n\n[[[[[[   QUESTION-19    ]]]]]]\n")
+  console.log("\nWe are inviting following", names.length, "Guests on Dinner")
+  console.log(names)
 }
 

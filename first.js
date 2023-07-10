@@ -189,3 +189,9 @@ console.log("\nWe are pleased to informed that we got a bigger table and invitin
     console.log("\nARRAY IN REVERSE ORDER");
     console.log(names_1.reverse());
 }
+{ // [[[[[[   QUESTION-19    ]]]]]] 
+    var names_2 = ["Farhad", "Daim", "Maaz", "Bilal", "Zarnab"];
+    console.log("\n\n\n[[[[[[   QUESTION-19    ]]]]]]\n");
+    console.log("\nWe are inviting following", names_2.length, "Guests on Dinner");
+    console.log(names_2);
+}
