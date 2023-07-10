@@ -195,3 +195,10 @@ console.log("\nWe are pleased to informed that we got a bigger table and invitin
     console.log("\nWe are inviting following", names_2.length, "Guests on Dinner");
     console.log(names_2);
 }
+{
+    // [[[[[[   QUESTION-20    ]]]]]] 
+    console.log("\n\n\n[[[[[[   QUESTION-20    ]]]]]]\n");
+    var mountains = ["Mount Everest", "K2", "Kangchenjunga", "Matterhorn", "Mount Kilimanjaro"];
+    console.log("\nFollowing is the list of", mountains.length, "Mountains:\n");
+    console.log(mountains);
+}

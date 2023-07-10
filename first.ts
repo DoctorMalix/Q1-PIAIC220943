@@ -245,3 +245,11 @@ console.log("\nThis is the final list of Guests", guestNames)
   console.log(names)
 }
 
+{
+   // [[[[[[   QUESTION-20    ]]]]]] 
+   console.log("\n\n\n[[[[[[   QUESTION-20    ]]]]]]\n")
+   let mountains: string[] = ["Mount Everest", "K2", "Kangchenjunga", "Matterhorn", "Mount Kilimanjaro"]
+   console.log("\nFollowing is the list of", mountains.length, "Mountains:\n")
+   console.log(mountains)
+}
+
