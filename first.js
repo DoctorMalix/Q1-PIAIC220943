@@ -202,3 +202,15 @@ console.log("\nWe are pleased to informed that we got a bigger table and invitin
     console.log("\nFollowing is the list of", mountains.length, "Mountains:\n");
     console.log(mountains);
 }
+{
+    // [[[[[[   QUESTION-21    ]]]]]] 
+    console.log("\n\n\n[[[[[[   QUESTION-21    ]]]]]]\n");
+    // Define the guest objects
+    var guest1 = { name: "Farhad Ali", age: 23, city: "Karachi" };
+    var guest2 = { name: "Daim Farooq", age: 20, city: "Lahore" };
+    var guest3 = { name: "Ahmed Bilal", age: 22, city: "Islamabad" };
+    console.log("\nPrint the guest objects\n");
+    console.log("Guest1:", guest1);
+    console.log("Guest2:", guest2);
+    console.log("Guest3:", guest3);
+}
