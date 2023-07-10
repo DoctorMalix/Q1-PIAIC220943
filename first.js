@@ -143,4 +143,23 @@ console.log("\nWe are pleased to informed that we got a bigger table and invitin
     console.log("\nDear", guestNames[4], "you are cordially invited to dinner today at 7 PM");
     console.log("\nDear", guestNames[5], "you are cordially invited to dinner today at 7 PM");
     console.log("\nDear", guestNames[6], "you are cordially invited to dinner today at 7 PM");
+    // QUESTION-17
+    console.log("it is to be iformed that, We can invite only two person on dinner for some reason please");
+    console.log("\nDear", guestNames[0], "We are sorry, your invitation cancelled");
+    guestNames.splice(0, 1);
+    console.log("\nDear", guestNames[0], "We are sorry, your invitation cancelled");
+    guestNames.splice(0, 1);
+    console.log("\nDear", guestNames[0], "We are sorry, your invitation cancelled");
+    guestNames.splice(0, 1);
+    console.log("\nDear", guestNames[0], "We are sorry, your invitation cancelled");
+    guestNames.splice(0, 1);
+    console.log("\nDear", guestNames[0], "We are sorry, your invitation cancelled");
+    guestNames.splice(0, 1);
+    // Invite only TWO remaining guests
+    console.log("\nInvite only TWO remaining guests");
+    console.log("\nDear", guestNames[0], "Your are Still Invited Please");
+    console.log("\nDear", guestNames[1], "Your are Still Invited Please");
+    guestNames.splice(0, 2);
+    console.log("\nEMPTY List of Guests");
+    console.log("\nThis is the final list of Guests", guestNames);
 }
