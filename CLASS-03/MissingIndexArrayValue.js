@@ -1,7 +1,8 @@
+"use strict";
 function findMissingIndex(numbers) {
-    for (var i = 0; i < numbers.length; i++) {
+    for (let i = 0; i < numbers.length; i++) {
         if (numbers[i] + 1 != (numbers[i + 1])) {
-            console.log("Missing @ Index=".concat(i, " Value=").concat(numbers[i]));
+            console.log(`Missing @ Index=${i} Value=${numbers[i]}`);
         }
     }
 }
